@@ -1,0 +1,120 @@
+.header {
+    /* font-family: Proxima Nova;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 100; */
+    position: absolute;
+    top: 10px;
+}
+
+.app-logo {
+    width: 12vw;
+}
+
+.user-image {
+    border-radius: 50%;
+    width: 7vw;
+    height: 15vh;
+    object-fit: cover;
+}
+
+.user-card {
+    position: relative;
+    left: 68px;
+    top: 74px;
+}
+
+.card {
+    background-color: ghostwhite;
+    top: 100px;
+    /* left: 40px; */
+    display: flex;
+    border: none;
+    width: auto;
+    height: 20vh;
+    justify-content: center;
+}
+
+.user-name {
+    font-size: 26px;
+    margin: 0 0 0 10px;
+}
+
+.user-data-container {
+    position: relative;
+    width: auto;
+    height: 5vh;
+    align-items: center;
+}
+
+.main-positioner {
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+}
+
+.flex-container>div {
+    margin: 0 0 0 12px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: auto;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: ghostwhite;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* padding-top: 60px; */
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: rgb(219, 52, 52);
+}
+
+.first-item {
+    position: relative;
+    top: 45px
+}
+
+.icon{
+    width: 22px;
+    margin-right: 25px;
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .user-image {
+        border-radius: 50%;
+        width: 12vw;
+        height: 15vh;
+        object-fit: cover;
+    }
+    .app-logo {
+        width: 23vw;
+    }
+    .sidenav a {
+        font-size: 20px;
+    }
+    .flex-container{
+        font-size: 19px;
+    }
+}

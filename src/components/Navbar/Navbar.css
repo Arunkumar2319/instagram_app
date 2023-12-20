@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    position: absolute;
+    top: 0;
+    background-color: ghostwhite;
+    width: 100vw;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    right: 47px;
+}
+
+.navbar-items{
+    z-index: 222;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    width: 22px;
+    margin-right: 25px;
+}
+
+.add-photo{
+    background: linear-gradient(90deg, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);    
+    font-size: 18px;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.searchbar{
+    position: absolute;
+    display: flex;
+    left: 330px;
+}
+
+input.search {
+    width: 30vw;
+    border: 1px solid #555;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background-color: ghostwhite !important;
+    border: none;
+    border-radius: 35px;
+    background: transparent url("/src/images/explore.svg") no-repeat 13px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .searchbar{
+        left: 280px;
+    }
+    .navbar{
+        right: 0px;
+    }
+}

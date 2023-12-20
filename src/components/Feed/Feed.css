@@ -1,0 +1,101 @@
+.image{
+    margin-left: 15%;
+    width: 35vw;
+    height: 48vh;
+}
+
+.profile-name{
+    margin-left: 10px;
+}
+
+.img-container{
+    position: relative;
+    /* display: flex; */
+    height: 55vh;
+    overflow-y: scroll;
+    width: auto;
+    object-fit: cover;
+    margin-left: 34px;
+}
+
+.img-container::-webkit-scrollbar{
+    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.header-align{
+    margin-left: 34px;
+}
+
+.user-post{
+    width: 25px;
+    margin-left: 15%;
+    margin-top: 5px;
+}
+
+.comment{
+    position: relative;
+    width: 25px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.saveIcon{
+    position: relative;
+    width: 18px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.post_profile_img {
+    border-radius: 50%;
+    width: 30px;
+    height: 28px;
+    object-fit: cover;
+    margin-left: 15%;
+}
+.post-header{
+    margin-top: 20px;
+}
+
+.story-container{
+    width: 60vw;
+    height: 19vh;
+    overflow-x: scroll;
+    margin-left: 22px;
+}
+
+.story-container::-webkit-scrollbar{
+    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.alert-msg{
+    position: absolute;
+    top: 0;
+    right: 32px;
+    z-index: 8888;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .story-container{
+        width: 72vw;
+        position: relative;
+        left: 40px;
+    }
+    .header-align{
+        margin-left: 57px;
+    }
+    .image{
+        margin-left: 18%;
+        width: 50vw;
+    }
+    .post-header{
+        margin-left: 17px;
+    }
+    .user-post{
+        margin-left: 18%;
+    }
+}

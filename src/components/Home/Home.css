@@ -1,0 +1,80 @@
+.sidebar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    background-color: ghostwhite;
+    width: 18vw;
+    height: 100vh;
+}
+
+.main-content{
+    /* background-color: green; */
+    position: relative;
+    top: 66px;
+    left: 276px;
+    width: 82vw;
+    height: 89vh;
+    z-index: 88888;
+}
+
+.feed{
+    width: calc(100% - 20vw);
+}
+
+.suggestions{
+    width: 20vw;
+}
+
+.header-align{
+    margin-top: 24px;
+}
+
+.suggestion-card{
+    width: 18vw;
+    /* background-color: aliceblue; */
+    height: 5vh;
+}
+
+.suggestions_profile_img {
+    border-radius: 50%;
+    width: 30px;
+    height: 28px;
+    object-fit: cover;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.suggestions-user-name{
+    position: relative;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 14px; 
+}
+
+.follow-btn{
+    margin-left: 50px;
+    font-size: 12px; 
+    height: 4vh;
+    margin-top: 5px;
+}
+
+.view-btn{
+    font-size: 12px; 
+    height: 4vh;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.all-results{
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .suggestions{
+        display: none;
+    }
+    .feed{
+        width: 90vw;
+    }
+}

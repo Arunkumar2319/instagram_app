@@ -1,0 +1,32 @@
+.sidebar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    background-color: ghostwhite;
+    width: 18vw;
+    height: 100vh;
+}
+
+.main-content{
+    /* background-color: green; */
+    position: relative;
+    top: 66px;
+    left: 209px;
+    width: 82vw;
+    height: 89vh;
+    z-index: 88888;
+}
+
+.suggestions{
+    width: 20vw;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .main-content{
+        left: 151px;
+    }
+    .sidebar{
+        width: 33vw;;
+    }
+}
